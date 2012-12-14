@@ -1,0 +1,1 @@
+ENV{DMI_VENDOR}=="[sS][aA][mM][sS][uU][nN][gG]*", ATTR{[dmi/id]product_name}=="*900[xX]4[cC]*", RUN+="/lib/udev/keymap $name /etc/udev/keymaps/samsung-900x4c"
